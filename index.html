@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patricia Ngo's DMA Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+  </head>
+
+  <body>
+    <!-- START header -->
+    <div class="header">
+      <div class="dropdown">
+        <button class="dropbtn">MENU</button>
+          <div class="dropdown-content">
+          <a href="#">Home</a>
+          <a href="images.html">Graphic Design</a>
+          <a href="video.html">Video</a>
+          <a href="3dobject.html">3D Design</a>
+          </div>
+      </div>
+      <img src="img/name.png" width="650px" height="450px">
+    </div>
+    <!-- END header -->
+    <!-- START content -->
+    <section class="content">
+      <h2>Welcome to my Portfolio</h2>
+      <p>Thank you for visiting my art portfolio. My name is Patricia and I have been passionate about creating art for many years. Ever since I was in elementary school, I realized that I wanted to make a career out of my artwork. I was in a media arts academy for three years during high school which lead to me deciding to studies in digital media art. I belive that when you work with digital media, the possiblities of what you create are endless. My goal is to branch out to other mediums and explore all types of styles.</p>
+    </section>
+  <!-- END content -->
+  <div class="pointer"></div>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js">
+  </script>
+  <script type="text/javascript">
+  $(document).mousemove(function(e){
+      $('.pointer').css({left:e.pageX, top:e.pageY})
+  })
+  </script>
+  </body>
+</html>

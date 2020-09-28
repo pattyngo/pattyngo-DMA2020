@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Video</title>
+  </head>
+
+  <body>
+    <!--START Header-->
+    <div class="altheader">
+      <a href="index.html"><img src="img/home.png" style="width:60px;height:60px;margin:30px;"></a>
+      <div class="dropdown">
+        <button class="dropbtn">MENU</button>
+          <div class="dropdown-content">
+          <a href="images.html">Graphic Design</a>
+          <a href="3dobject.html">3D Design</a>
+          </div>
+      </div>
+      <div class="logo">
+        <img src="img/video.png"style="height:120px;">
+      </div>
+
+    </div>
+    <!-- END Header-->
+    <div class="contentv">
+      <div class="frame">
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/wK6uLlgTSsE" width="640px" height="360px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="container">
+          <p>My project definitely has a silly feeling to it. I wanted to create a refreshing video. My motivation behind making this video was based off how I don't like art to always have a deep and spiritual meaning. My old high school teacher would preach that if your art did not have a strong meaning, then there is no point of making art. I think it is okay to make seemingly meaningless art. I do not like to make serious art. I just want to stray away from art that is hiding behind a complex concept.</p>
+        </div>
+      </div>
+
+      <div class="frame">
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/-YkF3jy9K14" width="640" height="360" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="container">
+          <p>Northern Lights</p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="pointer"></div>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js">
+  </script>
+  <script type="text/javascript">
+  $(document).mousemove(function(e){
+      $('.pointer').css({left:e.pageX, top:e.pageY})
+  })
+  </script>
+  </body>
+</html>

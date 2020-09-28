@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Graphic Design</title>
+    <link rel="stylesheet" href="css/imagesstyles.css">
+  </head>
+
+  <body>
+    <!--START Header-->
+    <div class="altheader">
+      <a href="index.html"><img src="img/home.png" style="width:60px;height:60px;margin:30px;"></a>
+      <div class="dropdown">
+        <button class="dropbtn">MENU</button>
+          <div class="dropdown-content">
+          <a href="video.html">Video</a>
+          <a href="3dobject.html">3D Design</a>
+          </div>
+      </div>
+      <div class="logo">
+        <img src="img/images.png" style="height:120px;">
+      </div>
+    </div>
+    <!-- END Header-->
+      <div class="text">
+        <h1>Welcome to my image gallery</h1>
+        <br>
+        <h3>click on photos for more information</h3>
+      </div>
+    <!--START Gallery-->
+        	<div class="top">
+            	<ul>
+                	  <li><a href="#img_1"><img src="img/1.jpg"></a></li>
+                    <li><a href="#img_2"><img src="img/2.jpg"></a></li>
+                    <li><a href="#img_3"><img src="img/3.jpg"></a></li>
+                    <li><a href="#img_5"><img src="img/5.jpg"></a></li>
+                    <li><a href="#img_7"><img src="img/7.gif"></a></li>
+                    <li><a href="#img_8"><img src="img/8.jpg"></a></li>
+
+                </ul>
+                <a href="#_1" class="lightbox trans" id="img_1"><img src="img/1.jpg"></a>
+                <a href="#_2" class="lightbox trans" id="img_2"><img src="img/2.jpg"></a>
+                <a href="#_3" class="lightbox trans" id="img_3"><img src="img/3.jpg"></a>
+                <a href="#_5" class="lightbox trans" id="img_5"><img src="img/5.jpg"></a>
+                <a href="#_7" class="lightbox trans" id="img_7"><img src="img/7.gif"></a>
+                <a href="#_8" class="lightbox trans" id="img_8"><img src="img/8.jpg"></a>
+            </div>
+    <!--END Gallery-->
+
+    <!-- START Pointer-->
+    <div class="pointer"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js">
+    </script>
+    <script type="text/javascript">
+    $(document).mousemove(function(e){
+        $('.pointer').css({left:e.pageX, top:e.pageY})
+    })
+    </script>
+    <!-- END Pointer-->
+  </body>
+</html>

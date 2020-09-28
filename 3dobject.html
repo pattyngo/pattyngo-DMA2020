@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <!--START Header-->
+    <div class="altheader">
+      <a href="index.html"><img src="img/home.png" style="width:60px;height:60px;margin:30px;"></a>
+      <div class="dropdown">
+        <button class="dropbtn">MENU</button>
+          <div class="dropdown-content">
+          <a href="images.html">Graphic Design</a>
+          <a href="video.html">Video</a>
+          </div>
+      </div>
+      <div class="logo">
+        <h1>3D Design</h1>
+      </div>
+    </div>
+    <!-- END Header-->
+    <div class="contentv">
+      <div class="frame">
+        <div class="video">
+          <div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/36db2ed58c5c4f88bbae6806162b5d6e/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          </div>
+        </div>
+        <div class="container">
+          <p>My project definitely has a silly feeling to it. I wanted to create a refreshing video. My motivation behind making this video was based off how I don't like art to always have a deep and spiritual meaning. My old high school teacher would preach that if your art did not have a strong meaning, then there is no point of making art. I think it is okay to make seemingly meaningless art. I do not like to make serious art. I just want to stray away from art that is hiding behind a complex concept.</p>
+        </div>
+      </div>
+
+      <div class="frame">
+        <div class="video">
+          <div class="sketchfab-embed-wrapper">
+        <iframe title="A 3D model" width="640" height="480" src="https://sketchfab.com/models/c4fa438a154e46b4b5b1a42c6d12fca7/embed"></iframe>
+        </div>
+        </div>
+        <div class="container">
+          <p>Northern Lights</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pointer"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js">
+    </script>
+    <script type="text/javascript">
+    $(document).mousemove(function(e){
+        $('.pointer').css({left:e.pageX, top:e.pageY})
+    })
+    </script>
+  </body>
+</html>

@@ -114,9 +114,21 @@ a{
   margin-bottom: 25px;
 }
 .container {
-  text-align: center;
+  overflow: hidden;
   padding: 10px 20px;
+  position: relative;
 }
+.container p {
+  text-align: left;
+}
+/* .container-iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+} */
 .video{
   padding-top: 30px;
 }

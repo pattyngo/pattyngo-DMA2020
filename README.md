@@ -11,7 +11,7 @@
 Welcome to my portfolio! I hope you enjoy looking through my artwork that I have created during my journey of becoming a digital media artist.
 
 ## Features
-Enjoy my JavaScript bee friend, they'll you company while you browse my page
+Enjoy my JavaScript bee friend, they will keep you company while you browse my page.
 
 ## Status
 Project is: _in progress_

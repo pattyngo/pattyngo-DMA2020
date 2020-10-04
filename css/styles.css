@@ -5,11 +5,11 @@
 	honey yellow: #F6B009;
 	coral: #FB8F67;
 */
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,500&display=swap');
 html,body{
   margin:0;
   height:100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 a{
   text-decoration:none
@@ -121,16 +121,8 @@ a{
 .container p {
   text-align: left;
 }
-/* .container-iframe {
-  border: 0;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-} */
 .video{
-  padding-top: 30px;
+  padding-top: 10px;
 }
 /*menu style*/
 .btn{

@@ -5,11 +5,11 @@
 	honey yellow: #F6B009;
 	coral: #FB8F67;
 */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 html,body{
   margin:0;
   height:100%;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 a{
   text-decoration:none
@@ -120,6 +120,11 @@ a{
 }
 .container p {
   text-align: left;
+}
+.a {
+  text-indent: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .video{
   padding-top: 10px;

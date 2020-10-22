@@ -12,7 +12,7 @@ html,body{
   font-family: 'PT Sans', sans-serif;
 }
 a{
-  text-decoration:none
+  display:flex;
 }
 .header{
   position:relative;
@@ -98,7 +98,8 @@ a{
 .content{
   padding:5% 10%;
   text-align:justify;
-	background-color: #F2DD86;
+  background-color: #F2DD86;
+	/* background-image: url("css/webbg.jpg"); */
 }
 /*video*/
 .contentv{
@@ -108,10 +109,11 @@ a{
 }
 .frame {
   width: 100%;
-  background-color:#F6B009;
+  background-color:#f7c54d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 25px;
   margin-bottom: 25px;
+  padding: 20px;
 }
 .container {
   overflow: hidden;
